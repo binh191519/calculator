@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Oxanium:wght@300&family=Squada+One&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    background-color: #eee;
+    border-radius: 20px;
+    border-style: outset;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.15);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+}
+
+.firstLine h2 {
+    font-weight: 1000;
+    font-family: 'Coda', cursive;
+}
+
+.firstLine p {
+    font-style: italic;
+}
+
+.secondLine {
+    font-family: 'Squada One', cursive;
+    font-style: italic;
+    font-size: x-large;
+    color: rgb(38, 179, 97);
+}
+
+#display {
+    height: 100px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: xx-large;
+    font-family: 'Oxanium', cursive;
+}
+
+.buttons {
+    flex: 1;
+    width: 360px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: large;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.del,
+.ac {
+    background-color: orangered;
+}
+
+.result {
+    height: 40px;
+    width: 350px;
+    text-align: end;
+    font-size: xx-large;
+    font-family: 'Oxanium', cursive;
+    margin-top: -40px;
+}
+
+
